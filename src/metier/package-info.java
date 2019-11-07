@@ -1,8 +1,5 @@
 /**
- * 
- */
-/**
- * @author zeuhias
+ * @author zeushias
  *
  */
 package metier;
