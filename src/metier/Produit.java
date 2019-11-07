@@ -36,4 +36,15 @@ public class Produit {
 	public String toString() {
 		return "Produit [id=" + id + ", libelle=" + libelle + ", prix=" + prix + "]";
 	}	
+	
+	@Override
+    public Object clone() {
+        Produit produit = null;
+        try {
+        	produit = (Produit) super.clone();
+        } catch (CloneNotSupportedException cnse) {
+        }
+        return produit;
+    }
+	
 }
